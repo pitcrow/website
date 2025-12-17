@@ -19,7 +19,7 @@
 	max-width:37.5rem;     				/* 600px */
     text-align:center;
 	margin:0 auto;
-	padding:3rem 1.25rem 0 1.25rem;
+	padding:1.5rem 1.25rem 0 1.25rem;
 	box-sizing:border-box;
 }
 .container-left {
@@ -76,7 +76,7 @@
 /* Typography
   –––––––––––––––––––––––––––––––––––––––––––––––––– */
   h1 {
-	margin:0 0 0.5rem 0;
+	margin: 0;
 	font-size:3rem;         		/* 48px */
     font-weight:800;
 	line-height:1;
@@ -86,7 +86,7 @@
 	hyphens:auto;           		/* Delete this to remove automatic hyphen on line break */
 }
 .container p {
-	margin:0 0 2rem 0;
+	margin: 0 0 1rem 0;
 }
 
 /* Base Typography Settings
@@ -117,7 +117,7 @@
 	border-radius: 50%;
 	object-fit: cover;
 	background-position: center;
-	margin-bottom: var(--spacing-l);
+	margin-bottom: var(--spacing-s);
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -125,10 +125,10 @@
 
 /* Typography Scale */
 h1 {
-	margin:0 0 var(--spacing-m) 0;
+	margin: 0;
 	font-size:var(--scale-5);           /* ~49px */
   	font-weight:800;
-	line-height:1.1;
+	line-height:1;
 	letter-spacing:-0.02em;
 	word-wrap:break-word;
 	overflow-wrap:break-word;
@@ -138,14 +138,13 @@ body {
   	line-height:1.6;
 }
 .container p {
-	margin:0 0 var(--spacing-xl) 0;
+	margin: 0 0 1rem 0;
 	font-size:var(--scale-1);
-	line-height:1.6;
 }
 
 /* Container spacing */
 .container {
-	padding:var(--spacing-xl) var(--spacing-m) 0 var(--spacing-m);
+	padding:var(--spacing-m) var(--spacing-m) 0 var(--spacing-m);
 	text-align:center;
 }
 
@@ -167,7 +166,7 @@ body {
 	font-size:var(--scale-0);
 }
 .avatar {
-	margin-bottom:var(--spacing-m);
+	margin-bottom:var(--spacing-s);
 }
 footer {
 	margin:var(--spacing-xl) 0;         	/* 3rem (48px) top and bottom */
@@ -225,7 +224,7 @@ a:hover {
 	height: 8rem;
 	object-fit: cover;
 	background-position: center;
-	margin-bottom: var(--spacing-l);
+	margin-bottom: var(--spacing-s);
   }
 
    /* Modifier for no avatar rounding */
